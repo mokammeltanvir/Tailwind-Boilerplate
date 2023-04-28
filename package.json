@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.3"
+  }
+}
